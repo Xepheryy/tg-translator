@@ -1,0 +1,16 @@
+[package]
+name = "tg-translator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.15.0"
+lazy_static = "1.4.0"
+once_cell = "1.18.0"
+reqwest = "0.11.22"
+serde = "1.0.192"
+serde_json = "1.0.108"
+teloxide = { version = "0.12.2", features = ["macros"] }
+tokio = {version = "1.34.0", features = ["rt-multi-thread", "macros"]}
