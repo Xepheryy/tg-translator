@@ -37,8 +37,10 @@ nodemon -e rs --exec "cargo run"
 > Running libretranslate through their official container has some compatibility issues with `compose` so this is still a work-in-progress
 
 ### FAQ
-1. Why didn't I use the libretranslate package ?
+1. Why didn't I use the libretranslate crate ?
 > It doesnt support as many languages as the standalone server
+2. What languages are supported ?
+> As many as libretranslate supports for now
 
 ### Screenshots
 ![Screenshot depicting commands supported by the bot](.github/screenshots/commands.png)
