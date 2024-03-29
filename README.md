@@ -3,7 +3,7 @@
 > Rustlator Bot is a personal side-project written in *rust* for exploratory purposes.
 
 ### Aim
-Simply add this bot into your group chats and start receiving translations.
+Simple bot to add into your group chats to enable translations within a group context.
 
 ### Prerequisites
 - libretranslate server (reachable via the internet or running locally via docker)
